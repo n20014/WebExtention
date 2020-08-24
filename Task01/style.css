@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+#style1 .item {
+float: left;
+margin: 30px 30px 30px 30px;
+border: 1px solid #ccc;
+padding: 8px;
+width: 400px;
+}
+
+#style2 .item {
+float: left;
+margin: 30px 30px 30px 30px;
+border: 1px solid #ccc;
+padding: 8px;
+width: 400px;
+}
+h1.title {
+padding: 0.5em;
+color: #000000;
+background: #00cccc;
+border-bottom: solid 3px #516ab6;
+text-align: center;
+}
+
+p.style3 {
+font-size:20px;
+line-height:20px;
+}
+
+li{font-weight: 900;}
+
+a:hover img {
+opacity: 0.5;
+}
+
+a:active {
+color:#ffff00;
+}
+
+h2 {
+color: #3cb371;
+padding: 0.5em 0;
+border-top: solid 3px #364e96;
+border-bottom: solid 3px #364e96;
+}
+
+.Underline {
+	border-bottom:solid;
+	border-color:#FF0000;
+	border-width:5px;/*5ピクセルの太さにする*/
+}
