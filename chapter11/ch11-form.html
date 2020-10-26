@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="フォームの授業で作成">
+<title>フォーム作成授業</title>
+<link rel="stylesheet" href="ch11-style.css">
+</head>
+<body>
+	<form action="@" method="post" id="contact">
+		<p><label for="name-field">お名前<span class="required">*必項</span></label><br>
+		<input type="text" name="name" id="name-field" required></p>
+
+		<p><label for="email-field">メールアドレス<span class="required">*必項</span></label><br>
+		<input type="email" name="email" id="email-field"></p>
+		
+		<p><label for="comment">お問い合わせの内容</label><br>
+		<textarea name="comment" id="comment"></textarea></p>
+		
+		<p class="submit-p"><input type="submit" value="送信する"
+			id="submit" name="submit"></p>
+	</form>
+</body>
+</html>
